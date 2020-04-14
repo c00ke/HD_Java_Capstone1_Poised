@@ -4,20 +4,17 @@ Project Management system for a small structural engineering firm
 the program will keep track of the projects which they work on
 
 The program will store all the project details 
-Project number
-Project name.
-What type of building is being designed? E.g. House, apartment block or store, etc.
-The physical address for the project.
-ERF number.
-The total fee being charged for the project.
-The total amount paid to date.
-Deadline for the project.
-The name, telephone number, email address and physical address of the
-architect for the project.
-The name, telephone number, email address and physical address of the
-contractor for the project.
-The name, telephone number, email address and physical address of the
-customer for the project.
+1. Project number
+2. Project name.
+3. What type of building is being designed? E.g. House, apartment block or store, etc.
+4. The physical address for the project.
+5. ERF number.
+6. The total fee being charged for the project.
+7. The total amount paid to date.
+8. Deadline for the project.
+9. The name, telephone number, email address and physical address of the architect for the project.
+10. The name, telephone number, email address and physical address of the contractor for the project.
+11. The name, telephone number, email address and physical address of the scustomer for the project.
 
 Program will be able to: 
 1 Capture information about new projects
