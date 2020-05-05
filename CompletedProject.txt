@@ -1,0 +1,25 @@
+Project Details:
+Completion date: Sun May 03 13:43:48 SAST 2020
+Project Name: stefan se huis
+Project Number: 34
+Building Type: flat
+Building Address: 123 shirt street
+ERF Number: 12
+Total Fee: R45000.0
+Total amount Paid to Date: R10000.0
+Deadline: 30/12/2020
+Completed: completed
+Name: Gert
+Telephone Number: 0021333444555
+Email Address: gert@mail.co.za
+Physical Address: 23 Patns street
+Name: marvin
+Telephone Number: 023434667
+Email Address: marv@digi.com
+Physical Address: 12 weir street
+Name: Frikkie
+Telephone Number: 01123475488
+Email Address: 
+Physical Address: frikkie@mails.co.uk
+
+
