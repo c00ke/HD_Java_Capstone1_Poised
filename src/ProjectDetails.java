@@ -20,10 +20,12 @@ public class ProjectDetails{
 	private	String conNumber; 
 	private	String contEmail; 
 	private	String contAddress;
+	private String ProjectManager;
 	private	String finalized;
 	
 	// Constructor
-	public ProjectDetails (String projectName, String projectNumber, String buildingType, String physicalAddress, String numERF, double totalFee, double feePaidToDate, String deadline, String finalized,
+	public ProjectDetails (String projectName, String projectNumber, String buildingType, String physicalAddress, String numERF, 
+			double totalFee, double feePaidToDate, String deadline, String finalized, String ProjectManager,
 			String archName, String archNumber, String archEmail, String archAddress, 
 			String custName, String custNumber, String custEmail, String custAddress, 
 			String conName, String contNumber, String contEmail, String contAddress) {
@@ -48,6 +50,7 @@ public class ProjectDetails{
 		this.conNumber = contNumber;
 		this.contAddress= contAddress;
 		this.finalized = finalized;
+		this.ProjectManager = ProjectManager;
 	}
 	
 	public ProjectDetails() {
@@ -220,10 +223,19 @@ public class ProjectDetails{
 		return this.contAddress = contAddress;
 	}
 	
+	public String getProjectManager() {
+		return ProjectManager;
+	}
+
+	public void setProjectManager(String projectManager) {
+		ProjectManager = projectManager;
+	}
+
 	// To String methods
 	public String writeToFile() {
 	
-		String output = projectName + "," + projectNumber + "," + buildingType + "," + physicalAddress + "," + numERF + "," + totalFee + "," + feePaidToDate + "," + deadline + "," + finalized;
+		String output = projectName + "," + projectNumber + "," + buildingType + "," + physicalAddress + "," + numERF; 
+		output += "," + totalFee + "," + feePaidToDate + "," + deadline + "," + finalized + "," + ProjectManager;
 	    output += "," + archName + "," + archNumber + "," + archEmail + "," + archAddress;
 	    output += "," + custName + "," + custNumber + "," + custEmail + "," + custAddress;
 	    output += "," + conName + "," + conNumber + "," + contEmail + "," + contAddress; 
@@ -255,6 +267,8 @@ public class ProjectDetails{
 		return output;
 	}
 }
+
+
 
 
 
